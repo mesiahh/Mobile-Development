@@ -37,7 +37,7 @@ const ToDoScreen = () => {
           <FontAwesome name="edit" size={24} color="#888" />
         </TouchableOpacity>
         
-        <TouchableOpacity style={styles.footerTab} onPress={() => router.push("/login")}>
+        <TouchableOpacity style={styles.footerTab} onPress={() => router.push("/a_Login")}>
           <FontAwesome name="user" size={24} color="#888" />
         </TouchableOpacity>
       </View>

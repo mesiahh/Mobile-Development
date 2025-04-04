@@ -67,7 +67,7 @@ const SignInScreen = () => {
         <TouchableOpacity style={styles.loginLinkContainer}>
           <Text style={styles.loginLinkText}>
             Already have an Account? 
-            <Text  onPress={() => router.push("/login")} style={styles.loginLink}> Login</Text>
+            <Text  onPress={() => router.push("/a_Login")} style={styles.loginLink}> Login</Text>
           </Text>
         </TouchableOpacity>
       </View>
