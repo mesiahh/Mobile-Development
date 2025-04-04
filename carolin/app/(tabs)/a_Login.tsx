@@ -53,7 +53,8 @@ const LoginScreen = () => {
         <TouchableOpacity 
           style={styles.loginButton}
         >
-          <Text style={styles.loginButtonText}>Login</Text>
+          <Text onPress={() => router.push("/c_ToDo")} style={styles.loginButtonText}>Login</Text>
+          
         </TouchableOpacity>
 
         <Text style={styles.orText}>OR</Text>
@@ -75,7 +76,7 @@ const LoginScreen = () => {
         <View style={styles.signupContainer}>
           <Text>Don't have an Account? </Text>
           <TouchableOpacity>
-            <Text onPress={() => router.push("/signup")} style={styles.signupText}>Sign Up</Text>
+            <Text onPress={() => router.push("/b_signup")} style={styles.signupText}>Sign Up</Text>
           </TouchableOpacity>
         </View>
       </View>
